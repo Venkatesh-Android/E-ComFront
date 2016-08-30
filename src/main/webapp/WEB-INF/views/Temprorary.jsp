@@ -13,17 +13,6 @@
 </style>
 </head>
 <body>
-<%-- <div class="container">
-<%@include file="adminpanel.jsp"%>
-<class="wrapper">
-<button onclick="myFunction()">HitMe</button>
-</class>
-</div>
-<script>
-function myFunction() {
-    alert("!!!Sorry for inconvenience, It is Under Construction...");
-}
-</script> --%>
 
 <div class="container">
 <%@include file="adminpanel.jsp"%>
@@ -33,5 +22,6 @@ function myFunction() {
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="res/js/bootstrap.min.js"></script>
+
 </body>
 </html>

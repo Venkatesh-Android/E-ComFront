@@ -7,38 +7,12 @@
 <link rel="stylesheet" href="res/css/bootstrap.min.css">
 	<link rel="stylesheet" href="res/css/custom.css">
 	<link rel="stylesheet" href="res/css/font-awesome.min.css">
-<title>Products Trial</title>
+<title>Insert title here</title>
 </head>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
+<%@include file="jsproducts.jsp"%>
 
-<div class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-			<div class="navbar-brand">E-Commerce</div>
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-
-			
-			</div>	<!--nav bar header-->
-		<div class="collapse navbar-collapse" id="navbar-collapse">
-		<ul class="nav navbar-nav">
-			<li><a href="homeside1">HOME</a></li>
-			<li><a href="#">Try</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-        <li><a href="logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-      </ul>
-		</div>
-		</div>     <!--container-->
-	</div>    <!-- navbar -->
-	
-<!-- 	
 <script type="text/javascript" src="res/js/angular.min.js"></script>
-
-
 <script type="text/javascript">
 	var myApp = angular.module("myApp",[]);
 	
@@ -49,34 +23,19 @@
 		               {"ProductId":"2" , "ProductImage":"iphone_6s_plus.jpg","ProductName":"iPhone6s Plus","Cartlink":"2"},
 		               {"ProductId":"3" , "ProductImage":"iphone_black_6_plus.jpg","ProductName":"iPhone6 Plus","Cartlink":"3"},
 		               {"ProductId":"4" , "ProductImage":"iphone_black_6.jpg","ProductName":"iPhone6","Cartlink":"4"},
-		               {"ProductId":"5" , "ProductImage":"nexus_5_150_150.jpg","ProductName":"Nexus 5","Cartlink":"5"},
-		               {"ProductId":"6" , "ProductImage":"nexus_6p_150_150.jpg","ProductName":"Nexus 6P","Cartlink":"6"}
+		               //{"ProductId":"5" , "ProductImage":"nexus_5_150_150.jpg","ProductName":"Nexus 5","Cartlink":"5"},
+		               //{"ProductId":"6" , "ProductImage":"nexus_6p_150_150.jpg","ProductName":"Nexus 6P","Cartlink":"6"}
 		              ];
 		
 	});
 </script>
-
-
-
-
 <body ng-app="myApp" ng-controller="myCtrl">
-
-  
-	
-	
-
-  
-<hr />
-<hr />
-
-
-<div class="container-fluid colour">
-
-	<H3>Mobile Section</H3>
+<div class="container">
+<H3>Apple Products Section</H3>
 
 <div class="jumbotron">
 	<div class="row">
-		
+		<!--  -->
 		
 		<div class="col-xs-4" ng-repeat="x in data">
 			<div class="thumbnail">
@@ -92,19 +51,12 @@
 			</div>
 		</div>
 	
-		
+		<!--  -->
 	</div>
 </div>
 
-</div> -->
-
-<div class="container">
-<h3>Product's Information</h3>
-<ul class="nav nav-pills nav-justified">
-<li><a href="prdsApple">Apple Products</a></li>
-<li><a href="prdsAndroid">Android Products</a></li>
-<li><a href="prdsWindow">Windows Products</a></li>
-</ul>
 </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="res/js/bootstrap.min.js"></script>
 </body>
 </html>

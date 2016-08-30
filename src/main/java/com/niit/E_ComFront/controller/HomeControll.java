@@ -102,6 +102,31 @@ public class HomeControll {
 		return("Temprorary");
 		
 	}
+	@RequestMapping("/prdsApple")
+	public String jsPrdApple()
+	
+	{
+		System.out.println("AngularJS Apple Products!");
+		return("prdsApp");
+		
+	}
+	@RequestMapping("/prdsAndroid")
+	public String jsPrdAndroid()
+	
+	{
+		System.out.println("AngularJS Android Products!");
+		return("prdsAnd");
+		
+	}
+	@RequestMapping("/prdsWindow")
+	public String jsPrdWindow()
+	
+	{
+		System.out.println("AngularJS Window Products!");
+		return("prdsWin");
+		
+	}
+	
 	@RequestMapping("/webflow1")
 	public String webflow1()
 	
