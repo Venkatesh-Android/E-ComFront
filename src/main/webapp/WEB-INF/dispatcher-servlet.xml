@@ -12,7 +12,7 @@
        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
-    <context:component-scan base-package="com" />
+    <context:component-scan base-package="com.niit.E_ComFront.controller" />
 
     <mvc:annotation-driven />
        

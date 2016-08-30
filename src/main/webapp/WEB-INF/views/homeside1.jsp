@@ -60,7 +60,7 @@ input[type=text]:focus {
 			<div class="collapse navbar-collapse" id="collapse">
 		<ul class="nav navbar-nav">
 			<li><a href="#"><span style="font-size:20px;cursor:pointer" onclick="openNav()">Electronics <i class="fa fa-shield fa-rotate-90"></i></span></a></li>
-			<li><a href="#">NewArrivals </a></li>
+			<li><a href="jsProd">Products</a></li>
 			<li><a href="#">Refurbished</a></li>
 
 		</ul>
@@ -300,6 +300,12 @@ input[type=text]:focus {
 
 	</div> <!--row-->
 
+<!-- Admin Panel button for try --> 
+
+	<p class="text-center"><a class="btn  btn-danger btn-md" href="AdminPanel">Admin Panel</a></p>
+	<p class="text-center"><a class="btn  btn-primary btn-md" href="webflow1">WebFlow</a></p>
+
+<!-- Admin Panel button for try --> 	
 
 
 	<footer class="row">

@@ -19,7 +19,7 @@ table, th, td {
 </head>
 <body>
 <div class="container">
-	
+	<%@include file="adminpanel.jsp"%>
 	<br>
 	<br>
 	<h1>Add a Category</h1>

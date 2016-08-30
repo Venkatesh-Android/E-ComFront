@@ -30,6 +30,14 @@ public class HomeControll {
 		return("LoginTry2");
 		
 	}
+	@RequestMapping("/logout")
+	public String logout()
+	
+	{
+		System.out.println("Logout successful*** Please SignIn");
+		return("LoginTry2");
+		
+	}
 	@RequestMapping("/Apple_Prds-Page")
 	public String apple()
 	
@@ -54,5 +62,75 @@ public class HomeControll {
 		return("Windows_Prds-Page");
 		
 	}
+	@RequestMapping("/AdminPanel")
+	public String adminpanel()
 	
+	{
+		System.out.println("Entered Admin Page");
+		return("adminpanel");
+		
+	}
+//	@RequestMapping("/categories")
+//	public String admincat()
+//	
+//	{
+//		System.out.println("Admin CRUD Category!");
+//		return("Temprorary");
+//		
+//	}
+	@RequestMapping("/jsProd")
+	public String jsProd()
+	
+	{
+		System.out.println("Admin CRUD Product!");
+		return("jsproducts");
+		
+	}
+	@RequestMapping("/products")
+	public String adminprd()
+	
+	{
+		System.out.println("Admin CRUD Product!");
+		return("Temprorary");
+		
+	}
+	@RequestMapping("/suppliers")
+	public String adminsup()
+	
+	{
+		System.out.println("Admin CRUD Supplier!");
+		return("Temprorary");
+		
+	}
+	@RequestMapping("/webflow1")
+	public String webflow1()
+	
+	{
+		System.out.println("Pagination 1");
+		return("page1");
+		
+	}
+	@RequestMapping("/webflow2")
+	public String webflow2()
+	
+	{
+		System.out.println("Pagination 2");
+		return("page2");
+		
+	}
+	@RequestMapping("/webflow3")
+	public String webflow3()
+	
+	{
+		System.out.println("Pagination 3");
+		return("page3");
+		
+	}@RequestMapping("/webflow4")
+	public String webflow4()
+	
+	{
+		System.out.println("Pagination 4");
+		return("page4");
+		
+	}
 }
